@@ -24,7 +24,14 @@ h1{
     border: none;
     background-color: rgb(239, 242, 246);;
     box-shadow: 2px 5px 5px rgb(226, 226, 226);
+    transition: 0.3s ease;
 }
+.nums:hover{
+    transform: scale(1.1);
+    background-color: rgb(207, 155, 200);
+    color: white;
+}
+    
 .display{
     height: 50px;
     font-size: 60px;
@@ -47,9 +54,11 @@ body{
     grid-template-columns: 1fr 1fr 190px;;
     gap: 22px;
     margin-top: 20px;
-
 }
 #equal{
     background-color: rgb(222, 177, 216);
     border-radius: 70px;;
+}
+#equal:hover{
+    background-color: rgb(213, 210, 213);
 }
