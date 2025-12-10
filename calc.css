@@ -13,7 +13,7 @@ h1{
     justify-self: center;
     background-color: white;
     margin-top: 150px;
-    padding:30px ;
+    padding:30px;
     border-radius: 30px;
     width: 400px;
 .nums{
@@ -38,12 +38,13 @@ h1{
     margin-bottom: 20px;
     border: none;
     box-shadow: 2px 5px 5px rgb(212, 210, 210);
-    padding-left:30px;
+    padding-right:30px;
     border-radius: 40px;
     height: 80px;
     color: rgb(99, 98, 98);
-    background-color: rgb(243, 247, 255);;
+    background-color: rgb(243, 247, 255);
     width: 370px;
+    text-align: right;
 }
 }
 body{

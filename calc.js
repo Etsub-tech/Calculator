@@ -42,6 +42,10 @@ document.querySelectorAll('.nums').forEach(btn=>{
             else if (value === "CLR"){
                 display.value = '';
             }
+            else if (value === "%") {
+                display.value = parseFloat(display.value) / 100;
+            }
+
             else{
                 display.value += value;
             }
